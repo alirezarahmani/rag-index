@@ -9,7 +9,7 @@ This repository contains a **fully reproducible benchmark** that shows exactly h
 
 > 🔗 **Full article:**
 > **“RAG Isn't About Embeddings — It's About the Index You Chose”**
-> [https://nidly.substack.com/p/rag-isnt-about-embeddings](https://nidly.substack.com/p/rag-isnt-about-embeddings)
+> [https://nidly.substack.com/p/rag-isnt-about-embeddings](https://open.substack.com/pub/nidly/p/rag-isnt-about-embeddings?r=a3p8i&utm_campaign=post&utm_medium=web&showWelcomeOnShare=true)
 
 ## 🚀 **What This Repo Gives You**
 
