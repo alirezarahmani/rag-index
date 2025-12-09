@@ -3,13 +3,13 @@
 
 **Stop Guessing. Measure Your Retrieval Layer.**
 
-Most RAG systems don’t fail because of embeddings.
+Most RAG systems don't fail because of embeddings.
 They fail because the **index** silently drops the documents that matter.
 
 This repository contains a **fully reproducible benchmark** that shows exactly how Flat, IVF, and HNSW behave across different dataset sizes, different query loads, and different parameter sweeps. If you care about **recall**, **latency**, or **scaling real systems**, this suite gives you the numbers, not the vibes.
 
 > 🔗 **Full article:**
-> **“RAG Isn’t About Embeddings — It’s About the Index You Chose”**
+> **“RAG Isn't About Embeddings — It's About the Index You Chose”**
 > [https://nidly.substack.com/p/rag-isnt-about-embeddings](https://nidly.substack.com/p/rag-isnt-about-embeddings)
 
 ---
@@ -67,22 +67,22 @@ Because every team that builds RAG eventually hits this moment:
 This repo is the answer:
 because **your index configuration is silently sabotaging you**.
 
-If you don’t measure:
+If you don't measure:
 
 * the **true recall gap**
 * the **latency ceiling**
 * the **cluster imbalance**
 * the **graph search depth trade-offs**
 
-…you’re building blind.
+…you're building blind.
 
 This suite shows you the real behavior of your retrieval layer, not the marketing slides.
 
 ---
 
-## 📊 **Example Insights You’ll Discover**
+## 📊 **Example Insights You'll Discover**
 
-With this benchmark, you’ll see things like:
+With this benchmark, you'll see things like:
 
 * IVF with `nprobe=1` can drop recall into the 40–60% range.
 * HNSW becomes unreliable at low `efSearch`, even though it “looks fast”.
@@ -123,7 +123,7 @@ You can plug outputs directly into your notebook or monitoring tools.
 * **AI engineers** who want numbers, not vibes
 * **CTOs & architects** modeling system latency budgets
 * **Researchers** studying ANN behavior under real constraints
-* **Anyone** who’s tired of guessing which index to use
+* **Anyone** who's tired of guessing which index to use
 
 If you care about correctness, performance, or scale, this repo saves you weeks.
 
@@ -135,8 +135,8 @@ Read the full article series about retrieval engineering, index tuning, and real
 
 👉 **[https://nidly.substack.com](https://nidly.substack.com)**
 
-Here’s the star of the show for this repo:
-**“RAG Isn’t About Embeddings — It’s About the Index You Chose”**
+Here's the star of the show for this repo:
+**“RAG Isn't About Embeddings — It's About the Index You Chose”**
 A breakdown of *why* embeddings get too much credit and indexes get too little.
 
 ---
