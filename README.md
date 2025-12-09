@@ -11,8 +11,6 @@ This repository contains a **fully reproducible benchmark** that shows exactly h
 > **“RAG Isn't About Embeddings — It's About the Index You Chose”**
 > [https://nidly.substack.com/p/rag-isnt-about-embeddings](https://nidly.substack.com/p/rag-isnt-about-embeddings)
 
----
-
 ## 🚀 **What This Repo Gives You**
 
 This benchmark suite is built to answer one question:
@@ -54,7 +52,6 @@ You get the **Pareto Frontier**:
 
 Fully self-contained, reproducible, and clean enough to drop into your own experiments or articles.
 
----
 
 ## 🧠 **Why This Repo Exists**
 
@@ -77,7 +74,6 @@ If you don't measure:
 
 This suite shows you the real behavior of your retrieval layer, not the marketing slides.
 
----
 
 ## 📊 **Example Insights You'll Discover**
 
@@ -92,7 +88,6 @@ With this benchmark, you'll see things like:
 None of these show up in blog posts.
 All of them show up in real production systems.
 
----
 
 ## 🛠 **How to Run**
 
@@ -114,7 +109,7 @@ Results are saved as JSON + console output.
 
 You can plug outputs directly into your notebook or monitoring tools.
 
----
+
 
 ## 🏆 **Who This Repo Is For**
 
@@ -126,7 +121,7 @@ You can plug outputs directly into your notebook or monitoring tools.
 
 If you care about correctness, performance, or scale, this repo saves you weeks.
 
----
+
 
 ## 📬 **If You Want the Deep Dive**
 
@@ -138,7 +133,7 @@ Here's the star of the show for this repo:
 **“RAG Isn't About Embeddings — It's About the Index You Chose”**
 A breakdown of *why* embeddings get too much credit and indexes get too little.
 
----
+
 
 ## ❤️ **Support the Work**
 
@@ -150,7 +145,7 @@ If this repo helps you:
 
 It keeps the research flowing and the benchmarks improving.
 
----
+
 
 ## 🧩 **Future Plans**
 
@@ -162,4 +157,4 @@ It keeps the research flowing and the benchmarks improving.
 
 Stay tuned. This is just version zero.
 
----
+
