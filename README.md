@@ -1,4 +1,3 @@
----
 # **RAG Index Benchmark Suite**
 
 **Stop Guessing. Measure Your Retrieval Layer.**
